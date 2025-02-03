@@ -16,4 +16,3 @@ This repository contains my hands-on practice and implementation of various **AW
 
 📌 **Purpose**: Documenting my learning journey and practical experience with AWS.  
 
-🚀 *Continuously updating as I explore more AWS services!*  
