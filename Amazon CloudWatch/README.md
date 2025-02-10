@@ -2,6 +2,10 @@
 
 This repository provides configurations and scripts for setting up AWS CloudWatch monitoring, including custom metrics, alarms, and log management.
 
+## What is AWS CloudWatch?
+
+AWS CloudWatch is a powerful monitoring and observability service provided by Amazon Web Services. It enables you to gain insights into the performance, health, and operational aspects of your AWS resources and applications. CloudWatch collects and tracks metrics, collects and monitors log files, and sets alarms to alert you on certain conditions.
+
 ## Features
 - Configure CloudWatch Alarms for EC2, RDS, and other AWS services
 - Set up custom metrics and dashboards
@@ -13,15 +17,8 @@ This repository provides configurations and scripts for setting up AWS CloudWatc
 - AWS CLI configured on your local machine
 - Terraform (optional for infrastructure automation)
 
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/cloudwatch-monitoring.git
-   cd cloudwatch-monitoring
-   ```
-2. Deploy CloudWatch configurations using AWS CLI or Terraform.
 
-## Usage
-- Modify the configuration files as per your AWS environment.
-- Run the deployment scripts to apply the settings.
-- Monitor logs and metrics from the AWS CloudWatch console.
+## Particular how to perfrom in aws
+- Create the EC2 instace in AWs using the Ubuntu OS.
+- Add the CPU_utilization file using the python language.
+- Nagative to the Cloudwatch (Setup you alaram, metrics(having the CPUUtilication feture enable for that particular instance))
